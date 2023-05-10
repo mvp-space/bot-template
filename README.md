@@ -1,6 +1,6 @@
 # Bot Template
 
-...
+Common template for creating Bots.
 
 ## Benchmark
 
