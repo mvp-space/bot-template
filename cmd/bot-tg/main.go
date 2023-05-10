@@ -2,10 +2,10 @@ package main
 
 import (
 	"flag"
-	"github.com/mvp-space/bot-template/internal/config"
 	"os"
 
 	"github.com/go-telegram-bot-api/telegram-bot-api"
+	"github.com/mvp-space/bot-template/internal/config"
 	"github.com/mvp-space/bot-template/pkg/log"
 )
 
