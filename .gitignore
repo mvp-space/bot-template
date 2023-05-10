@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Test coverage output
+coverage*.*
+
+# bot binary
+./bot-tg
+
+# PID file generated to support live reload
+.pid
+
+# IDE
+.idea
+
+# Config
+/config/local.yml
