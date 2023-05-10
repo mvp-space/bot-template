@@ -8,7 +8,7 @@ require (
 	github.com/qiangxue/go-env v1.0.1
 	github.com/stretchr/testify v1.8.2
 	go.uber.org/zap v1.24.0
-	gopkg.in/yaml.v2 v2.2.2
+	gopkg.in/yaml.v2 v2.2.4
 )
 
 require (
