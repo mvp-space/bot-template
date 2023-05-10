@@ -28,7 +28,7 @@ jobs:
           go mod download
           go mod verify
           go get golang.org/x/tools/cmd/cover
-          go get golang.org/x/lint/golint
+          go get github.com/mattn/goveralls
 
       - name: Run go lint
         run: make lint
