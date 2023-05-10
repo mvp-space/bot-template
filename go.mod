@@ -1,6 +1,6 @@
 module github.com/mvp-space/bot-template
 
-go 1.18
+go 1.20
 
 require (
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
@@ -8,7 +8,7 @@ require (
 	github.com/qiangxue/go-env v1.0.1
 	github.com/stretchr/testify v1.8.2
 	go.uber.org/zap v1.24.0
-	gopkg.in/yaml.v3 v3.0.1
+	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (
@@ -17,4 +17,5 @@ require (
 	github.com/technoweenie/multipartstreamer v1.0.1 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

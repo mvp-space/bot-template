@@ -1,8 +1,8 @@
 package config
 
 import (
-	"gopkg.in/yaml.v3"
-	"io/ioutil"
+	"gopkg.in/yaml.v2"
+	"os"
 
 	"github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/qiangxue/go-env"
@@ -32,7 +32,7 @@ func Load(file string, logger log.Logger) (*Config, error) {
 	c := Config{}
 
 	// load from YAML config file
-	bytes, err := ioutil.ReadFile(file)
+	bytes, err := os.ReadFile(file)
 	if err != nil {
 		return nil, err
 	}
