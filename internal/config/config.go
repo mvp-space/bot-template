@@ -2,7 +2,7 @@
 package config
 
 import (
-	"gopkg.in/yaml.v3"
+	"gopkg.in/yaml.v2"
 	"os"
 
 	"github.com/go-ozzo/ozzo-validation/v4"
