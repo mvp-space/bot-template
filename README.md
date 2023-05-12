@@ -5,6 +5,14 @@
 
 Common template for creating Bots.
 
+## First step
+
+```bash
+cp ./config/dev.yml ./config/local.yml
+```
+
+And fill in the required environment variable for startup (telegram_token).
+
 ## Help
 
 ```bash
