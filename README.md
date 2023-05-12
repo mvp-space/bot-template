@@ -1,5 +1,8 @@
 # Bot Template
 
+[![Go Report](https://goreportcard.com/badge/github.com/mvp-space/bot-template)](https://goreportcard.com/report/github.com/mvp-space/bot-template)
+[![Build](https://github.com/mvp-space/bot-template/actions/workflows/build.yml/badge.svg)](https://github.com/mvp-space/bot-template/actions/workflows/build.yml)
+
 Common template for creating Bots.
 
 ## Help
