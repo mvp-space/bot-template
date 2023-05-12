@@ -1,5 +1,7 @@
 # Bot Template
 
+[![Build](https://github.com/mvp-space/bot-template/actions/workflows/build.yml/badge.svg)](https://github.com/mvp-space/bot-template/actions/workflows/build.yml)
+
 Common template for creating Bots.
 
 ## Help
